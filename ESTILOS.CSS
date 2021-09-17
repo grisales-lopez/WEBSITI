@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+:root {
+  --orange:         rgba(255, 118, 1);
+  --oranje0:        rgba(255, 234, 205, 100);
+  --oranje0:        rgba(255, 234, 205, 100);
+  --black:          rgba(0,   0,   0);
+  --gray1:          rgba(125, 125, 125, 100);
+  --gray2:          rgba(226, 226, 226, 100);
+  --gray3:          rgba(246, 247, 249, 100);
+  --bordergray:     rgba(219, 218, 255, 100);
+  --red:            rgba(255, 16, 16, 100);
+  --red0:           rgba(255, 199, 199, 100);
+  --green:          rgba(0,   255, 19, 100);
+  --green0:         rgba(225, 255, 235, 100);
+  --white:          rgba(225, 225, 225, 100);
+  --blue:           rgba(16, 33, 225, 100);
+  --blue0:          rgba(199, 205, 255, 100);
+  --box1:           0px 0px 10px;
+  --transition1:    all 500ms;
+  ---svg-tpeani: translate(-0% 45px 0px 23%) var(=58%){translateY(-0% 45px 0px 23%)}
+}
+.root {
+  background: var(--dark);
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+        border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #eaeaea;
+    border-radius: 10px;
+}
+input[type="file"]{
+  display: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+main{
+  margin: 0px 10px 0px 120px;
+}
+.DX01-MENU-LATERAL{
+ height: 60px;
+ padding: 10px;
+ display: flex;
+ align-items: center;
+ border-bottom: 1px solid var(--bordergray);
+}
+.DC01-DX01-MENU-LATERAL{
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid var(--bordergray); */
+  background: var(--gray3);
+  width: 450px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.DC01-DX01-MENU-LATERAL input[type="text"]{
+ background: none;
+ width: 100%;
+ height: 38px;
+ border: none;
+ outline:none;
+ font-weight: 500;
+}
+.DC01-DX01-MENU-LATERAL input[type="text"]::placeholder{
+ font-weight: 400
+}
+.DC01-DX01-MENU-LATERAL .SV01{
+ margin-right: 10PX;
+}
+.DC01-DX01-MENU-LATERAL .SV02{
+ cursor: pointer;
+ transition: all 700ms;
+ fill:rgba(126,134,158,0.25);
+}
+.DC01-DX01-MENU-LATERAL .SV02:hover{
+ transform: translateY(-2px);
+ fill:rgba(0, 0 ,0);
+}
+.DC02-DX01-MENU-LATERAL{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: space-around;
+  width: 200px;
+}
+.DC02-DX01-MENU-LATERAL svg{
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  transition: all 700ms;
+}
+span{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    padding: 2px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    transition: all 700ms;
+    margin-left: 41px;
+    margin-top: -29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.DC02-DX01-MENU-LATERAL svg{
+ transition: all 700ms;
+}
+.DC02-DX01-MENU-LATERAL svg:hover{
+ transform: translateY(-3px);
+}
+.DC02-DX01-MENU-LATERAL svg:hover + span{
+ transform: translateY(-3px);
+}
+#Layer_1{
+  width: 100%;
+  margin-right: 30px;
+  fill:#2E2E2E;
+
+}
+.AQUIVAELLOGODEIMPORTADORA{
+  overflow: hidden;
+  padding: 5px;
+  height: 55px;
+  width: 55px;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size:
+
+}
